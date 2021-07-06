@@ -141,7 +141,7 @@ nav ul a {
  text-align: center;
  /* border: 2px solid green; */
 }
-.contact {
+.feedback {
  background-image: url(./images/contact.jpg);
  background-repeat: no-repeat;
  background-size: cover;
@@ -164,9 +164,7 @@ form {
 label,
 input {
  display: inline-block;
- /* border: 2px solid green; */
- /* margin-bottom: 10px; */
- width: 100%;
+ width: 240px;
 }
 label {
  font-size: 20px;
@@ -175,7 +173,8 @@ label {
 }
 input,
 textarea {
- min-height: 20px;
+ min-height: 30px;
+ max-width: 100%;
  border: 2px solid gray;
  border-radius: 10px;
 }
@@ -187,7 +186,6 @@ textarea {
  background-image: linear-gradient(orange, orangered);
 }
 .followers {
- /* border: 2px solid green; */
  width: 70%;
  margin: 100px auto 30px auto;
  padding: 40px;
@@ -196,8 +194,8 @@ textarea {
  border-radius: 50px;
 }
 .followers-content {
- /* border: 2px solid green; */
  width: 20%;
+ text-align: center;
  margin: 0 auto;
 }
 footer {
