@@ -4,6 +4,7 @@ body {
  margin: 0;
  font-family: "Raleway", sans-serif;
  color: rgb(82, 81, 81);
+ background-color: rgb(243, 243, 243);
 }
 h1,
 h2,
@@ -34,16 +35,21 @@ nav {
 nav ul li {
  margin-left: 10px;
  box-shadow: 1px 1px 5px rgb(204, 202, 202);
- border-radius: 10px;
+ border-radius: 40px;
 }
 nav ul a {
  display: inline-block;
  text-decoration: none;
  font-size: 20px;
  font-weight: 900;
- color: rgb(54, 54, 54);
+ color: rgb(235, 234, 234);
  padding: 5px 20px;
- background-image: linear-gradient(rgb(254, 243, 236), rgb(253, 183, 150));
+ background-image: linear-gradient(
+  to right,
+  rgb(252, 79, 53),
+  rgb(251, 141, 73)
+ );
+ border-radius: 40px;
 }
 .flex {
  display: flex;
@@ -72,10 +78,14 @@ nav ul a {
  margin: 0 auto;
  /* border: 2px solid green; */
 }
+.header-img img {
+ width: 100%;
+}
 .about-section {
  background: url(./images/shapes/7.png);
  background-repeat: no-repeat;
  background-size: cover;
+ height: 600px;
 }
 .about-img {
  width: 40%;
@@ -106,7 +116,7 @@ nav ul a {
  padding: 15px 30px;
  border-radius: 10px;
 }
-.recipies-title {
+.center-title {
  width: 40%;
  margin: 0 auto;
  text-align: center;
@@ -130,6 +140,51 @@ nav ul a {
  margin: 0 auto;
  text-align: center;
  /* border: 2px solid green; */
+}
+.contact {
+ background-image: url(./images/contact.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ padding: 80px 0;
+ color: rgb(233, 233, 233);
+ text-shadow: 2px 2px 2px black;
+}
+.contact h1 {
+ color: white;
+ /* color: orangered; */
+ text-shadow: 2px 2px 2px black;
+}
+form {
+ width: fit-content;
+ margin: 0 auto;
+ text-align: center;
+ /* border: 2px solid green; */
+}
+label,
+input {
+ display: inline-block;
+ /* border: 2px solid green; */
+ /* margin-bottom: 10px; */
+ width: 100%;
+}
+label {
+ font-size: 20px;
+ font-weight: 900;
+ margin-top: 15px;
+}
+input,
+textarea {
+ min-height: 20px;
+ border: 2px solid gray;
+ border-radius: 10px;
+}
+.submit {
+ font-size: 20px;
+ font-weight: 500;
+ margin-top: 5px;
+ color: white;
+ background-image: linear-gradient(orange, orangered);
 }
 .followers {
  /* border: 2px solid green; */
